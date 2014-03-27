@@ -1,0 +1,3 @@
+ DFD adalah sebuah diagram yang menggambarkan alur data, “dari mana dan ke mana sebuah data akan mengalir.” Dalam kehidupan sehari-hari, kata “dari mana” bisa diibaratkan dengan “sumber”, dan kata “ke mana” bisa diibaratkan sebagai “tujuan,” jadi DFD menggambarkan “aliran data dari sumber ke tujuan.”
+
+Contoh: jika kita akan membuat software mengenai “Sistem Penjualan Barang,” maka sumbernya adalah “Pembeli” dan tujuannya adalah “Pimpinan”, jadi DFD akan menggambarkan aliran data mulai dari “Pembeli” sampai ke “Pimpinan.” Jika kita akan membahas “Sistem Penggajian” maka data akan mengalir mulai dari sumbernya yaitu “Karyawan” dan berakhir di “Pimpinan” yang menggaji karyawan.  
