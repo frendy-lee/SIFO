@@ -9,6 +9,15 @@ Silahkan tambahkan data dan perbaiki pengetikan yang ada.
 
 Deadline yaitu hari SELASA tanggal 1 APRIL 2014.
 
+Yang harus kita siapkan:
+
+1. Cover 
+2. Sejarah DFD 
+3. Simbol - simbol dan cara memakai serta aturan 
+4. Contoh penggunaan 
+5. Gunakan aplikasi untuk menggambar Diagram 
+6. Referensi/ daftar pustaka
+
 (! PENTING) Tolong lakukan pengubahan dan penambahan dalam format text biasa saja. Tujuannya agar perubahan yang dilakukan bisa terlihat.
 
 Cara bekerja:
