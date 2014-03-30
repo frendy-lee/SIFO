@@ -1,0 +1,67 @@
+
+
+Beberapa symbol digunakan di DFD untuk maksud mewakili :
+
+    1. External entity (kesatuan luar) atau boundary (batas sistem);
+    2. Data flow (arus data);
+    3. Process (proses);
+    4. Data store (simpanan data).
+
+	
+	Kesatuan Luar
+
+	Setiap sistem pasti mempunyai batas sistem (boundary) yang memisahkan suatu sistem dengan lingkungan luarnya. Sistem akan menerima input dan menghasilkan output kepada lingkungan luarnya. Kesatuan luar (external entity) merupakan kesatuan (entity) dilingkungan luar sistem yang dapat berupa orang, organisasi atau sistem lainnya yang berada dilingkungan luarnya yang akan memberikan input atau menerima output dari sistem.
+	Kesatuan luar ini kebanyakan adalah salah satu dari berikut ini:
+    1. Suatu kantor, departemen atau divisi dalam perusahaan tetapi di luar sistem yang sedang dikembangkan.
+    2. Orang atau sekelompok orang diorganisasi tetapi di luar sistem yang sedang dikembangkan.
+    3. Suatu organisasi atau orang yang berada di luar organisasi seperti misalnya langganan, pemasok.
+    4. Sistem informasi yang lain di luar sistem yang sedang dikembangkan.
+    5. Sumber asli dari suatu transaksi.
+    6. Penerima akhir dari suatu laporan yang dihasilkan oleh sistem.
+	
+	Arus Data
+
+	Arus data (data flow) di DFD diberi simbol suatu panah. Arus data ini mengalir diantara proses (process), simpanan data (data store) dan kesatuan luar (exsternal entity). Arus data menunjukan arus data yang dapat berupa masukan untuk sistem atau hasil dari proses sistem dan dapat berbentuk sebagai berikut ini :
+    1. Formulir atau dokumen yang digunakan di perpustakaan.
+    2. Laporan tercetak yang dihasilkan oleh sistem.
+    3. Tampilan atau output di layar komputer yang dhasilkan oleh sistem.
+    4. Masukan untuk komputer.
+    5. Komunikasi ucapan.
+    6. Surat-surat atau memo.
+    7. Data yang dibaca atau direkamkan ke suatu file.
+    8. Suatu isian yang dicatat pada buku agenda.
+    9. Transmisi data dari suatu komputer ke komputer yang lain.
+	
+	Proses
+
+	Suatu proses adalah kegiatan atau kerja yang dilakukan oleh orang, mesin atau komputer dari hasil suatu arus data yang masuk kedalam proses untuk dihasilkan arus data yang akan keluar dari proses. Untuk physical dataflow diagram (PDFD), proses dapat dilakukan oleh orang, mesin atau computer, sedang untuk logical data flow diagram (LDFD), suatu proses hanya menunjukkan proses dari computer. Perbedaan dari PDFD dan LDFD akan dibahas kemudian. Suatu proses dapat menunjukkan dengan symbol lingkaran atau dengan simbol empat persegi panjang tegak dengan sudut-sudut tumpul.
+	
+	Simpanan Data
+
+	Menunjukkan informasi yang tersimpan dalam file diantara transactions. Data store diidentitaskan dengan “D dengan nomor” untuk data store komputer dan “M dengan nomor” untuk manual data store. Data store disimbolkan sebagai berikut :
+	Penggambaran simpanan data di DFD perlu memperhatikan beberapa hal, sebagai berikut:
+
+   1. Hanya proses saja yang berhubungan dengan simpanan data, karena yang menggunakan atau merubah data di simpanan data adalah proses.
+   2. Arus data yang menuju ke simpanan data dari suatu proses menunjukkan proses update terhadap data yang tersimpan di simpanan data. Update dapat berupa proses:
+       a.  Menambah atau menyimpankan record baru atau dokumen baru ke dalam simpanan data.
+       b. Menghapus record atau mengambil dokumen dari simpanan data.
+       c. Merubah nilai data di suatu record atau di suatu dokumen yang ada di simpanan data.
+   3. Arus data yang berasal dari simpanan data ke suatu proses menunjukkan bahwa proses tersebut menggunakan data yang ada di simpanan data. Untuk media simpanan data berupa simpanan luar komputer (disk atau tape) berarti membaca data dari suatu record di file sedang untuk disimpanan data berupa media manual berarti mengambil suatu formulir atau dokumen untuk dilihat isinya dari suatu simpanan data.
+   4. Proses yang melakukan kedua-duanya, yaitu menggunakan dan update simpanan data dapat dilakukan hal berikut:
+       a. Dapat menggunakan sebuah garis dengan panah mengarah kedua arah yang berlawanan dari simpanan data.
+       b. Menggunakan arus data yang terpisah.
+	   
+	
+	DFD sangat berbeda dengan bagan alir (flowchart). Perbedaannya adalah sebagai berikut:
+    1. Proses di DFD dapat beroperasi secara parallel, sehingga beberapa proses dapat dilakukan serentak sedangkan bagan alir cenderung menunjukkan proses yang urut.
+    2. DFD lebih mencerminkan arus dari data di suatu sistem, sedang bagan alir sistem lebih menunjukkan arus dari prosedur dan bagan alir program lebih menunjukkan arus dari algoritma.
+    3. DFD tidak menunjukkan proses perulangan (loop) dan proses keputusan (decision), sedang bagan alir menunjukkanya.
+
+	Selain itu, DFD juga memiliki beberapa keterbatasan, antara lain:
+
+    1. DFD tidak menunjukkan proses perulangan (loop).
+    2. DFD tidak menunjukkan proses keputusan (decision).
+    3. DFD tidak menunjukkan proses perhitungan.
+
+
+
