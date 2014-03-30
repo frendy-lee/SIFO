@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 PERKENALAN
 
@@ -8,3 +9,15 @@ PERKENALAN
 	DFD terdiri dari diagram konteks (context diagram) dan diagram rinci (level diagram).  Diagram  konteks  adalah  diagram  yang  terdiri  dari  suatu  proses  dan menggambarkan  ruang  lingkup  suatu  sistem.  Diagram  konteks  merupakan  level tertinggi  dari  DFD  yang  menggambarkan  seluruh  input  ke  sistem  atau  output  dari sistem.  Dalam diagram konteks biasanya hanya ada satu proses. Tidak boleh ada store dalam diagram konteks. Diagram rinci adalah diagram yang menguraikan proses apa yang ada dalam diagram level di atasnya.
 
 	Contoh: jika kita akan membuat software mengenai “Sistem Penjualan Barang,” maka sumbernya adalah “Pembeli” dan tujuannya adalah “Pimpinan”, jadi DFD akan menggambarkan aliran data mulai dari “Pembeli” sampai ke “Pimpinan.” Jika kita akan membahas “Sistem Penggajian” maka data akan mengalir mulai dari sumbernya yaitu “Karyawan” dan berakhir di “Pimpinan” yang menggaji karyawan.  
+=======
+
+PERKENALAN
+
+	DFD adalah sebuah diagram yang menggambarkan alur data, “dari mana dan ke mana sebuah data akan mengalir.” Dalam kehidupan sehari-hari, kata “dari mana” bisa diibaratkan dengan “sumber”, dan kata “ke mana” bisa diibaratkan sebagai “tujuan,” jadi DFD menggambarkan “aliran data dari sumber ke tujuan.”
+
+	DFD sering digunakan untuk menggambarkan suatu sistem yang telah ada atau sistem   baru   yang   akan   dikembangkan   secara   logika   tanpa   mempertimbangkan lingkungan  fisik  dimana  data  tersebut  mengalir  atau  dimana  data  tersebut  akan disimpan.   Salah   satu   keuntungan   menggunakan   diagram   aliran   data   adalah memudahkan   pemakai   (user)   yang   kurang   menguasai   bidang   komputer   untuk mengerti sistem yang akan dikerjakan.
+
+	DFD terdiri dari diagram konteks (context diagram) dan diagram rinci (level diagram).  Diagram  konteks  adalah  diagram  yang  terdiri  dari  suatu  proses  dan menggambarkan  ruang  lingkup  suatu  sistem.  Diagram  konteks  merupakan  level tertinggi  dari  DFD  yang  menggambarkan  seluruh  input  ke  sistem  atau  output  dari sistem.  Dalam diagram konteks biasanya hanya ada satu proses. Tidak boleh ada store dalam diagram konteks. Diagram rinci adalah diagram yang menguraikan proses apa yang ada dalam diagram level di atasnya.
+
+	Contoh: jika kita akan membuat software mengenai “Sistem Penjualan Barang,” maka sumbernya adalah “Pembeli” dan tujuannya adalah “Pimpinan”, jadi DFD akan menggambarkan aliran data mulai dari “Pembeli” sampai ke “Pimpinan.” Jika kita akan membahas “Sistem Penggajian” maka data akan mengalir mulai dari sumbernya yaitu “Karyawan” dan berakhir di “Pimpinan” yang menggaji karyawan.  
+>>>>>>> 15a9ce81ba71d145a33a232203615fe6f36d5995
