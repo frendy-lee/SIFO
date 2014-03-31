@@ -1,0 +1,17 @@
+
+Gambarkanlah Diagram Aliran Data (data flow diagram) logic pada sebuah system pengolahan data penyimpanan / pengambilan uang disalah satu bank yang saudara ketahui. Proses-proses yang harus ada pada diagram tersebut adalah :
+
+1.  Pembukaan Rekening
+2.  Penyimpanan Uang
+3.  Pengambilan Uang
+4.  Penghitungan Uang.
+5.  Penutupan Rekening
+6.  Pembuatan Laporan.
+
+Gambar terdiri dari : 1. Diagram Konteks.
+
+                      2. Diagram Level 0
+
+                      3. Diagram Rinci
+
+Jawab:
