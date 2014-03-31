@@ -1,0 +1,2 @@
+Sejarah Data Flow Diagram (DFD)
+	Data Flow Diagram diciptakan oleh Larry Constantine berdasarkan model perhitungan “Data Flow Graph” Martin dan Estrin. Mereka adalah salah satu dari tiga perspektif penting Structured Systems Analysis and Design Method (SSADM). Dengan Data Flow Diagram pengguna dapat memvisualisasikan bagaimana sistem akan beroperasi, sistem apa yang akan dicapai, dan bagaimana sistem akan diimplementasikan.

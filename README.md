@@ -19,6 +19,7 @@ Yang harus kita siapkan:
 6. Referensi/ daftar pustaka
 
 (! PENTING) Tolong lakukan pengubahan dan penambahan dalam format text biasa saja. Tujuannya agar perubahan yang dilakukan bisa terlihat.
+(! PENTING) File utama Kita terdiri dari File Word dan PowerPoint saja. 
 
 Cara bekerja:
 
