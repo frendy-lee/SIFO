@@ -1,0 +1,94 @@
+Latar belakang DFD
+Suatu yang lazim bahwa ketika menggambarkan sebuah sistem kontekstual data flow diagram yang akan pertama kali muncul adalah interaksi antara sistem dan entitas luar. DFD didisain untuk menunjukkan sebuah sistem yang terbagi-bagi menjadi suatu bagian sub-sistem yang lebih kecil adan untuk menggarisbawahi arus data antara kedua hal yang tersebut diatas. Diagram ini lalu “dikembangkan” untuk melihat lebih rinci sehingga dapat terlihat model-model yang terdapat di dalamnya.
+
+Tujuan DFD
+
+Tujuan DFD adalah :
+1. Memberikan indikasi mengenai bagaimana data ditransformasi pada saat data bergerak melalui sistem
+2. Menggambarkan fungsi-fungsi(dan sub fungsi) yang mentransformasi aliran data
+
+Manfaat DFD
+
+Manfaat DFD adalah :
+
+1. Data Flow Diagram (DFD) adalah alat pembuatan model yang memungkinkan profesional sistem untuk menggambarkan sistem sebagai suatu jaringan proses fungsional yang dihubungkan satu sama lain dengan alur data, baik secara manual maupun komputerisasi.
+
+2. DFD ini adalah salah satu alat pembuatan model yang sering digunakan,khususnya bila fungsi-fungsi sistem merupakan bagian yang lebih penting dan kompleks dari pada data yang dimanipulasi oleh sistem.Dengan kata lain, DFD adalah alat pembuatan model yang memberikan penekanan hanya pada fungsi sistem.
+
+3. DFD ini merupakan alat perancangan sistem yang berorientasi pada alur data dengan konsep dekomposisi dapat digunakan untuk penggambaran analisa maupun rancangan sistem yang mudah dikomunikasikan oleh profesional sistem kepada pemakai maupun pembuat program.
+
+Syarat Memuat DFD
+
+Syarat-syarat pembuatan DFD ini adalah :
+
+1. Pemberian nama untuk tiap komponen DFD
+2. Pemberian nomor pada komponen proses
+3. Penggambaran DFD sesering mungkin agar enak dilihat
+4. Penghindaran penggambaran DFD yang rumit
+5. Pemastian DFD yang dibentuk itu konsiten secara logika
+
+Tips-tips dalam membuat DFD
+
+Berikut ini tips-tips dalam membuat DFD :
+
+1.  Pilih notasi sehingga proses yang didekomposisi atau tidak didekomposisi dapat dibaca dengan mudah
+2.  Nama proses harus terdiri dari kata kerja dan kata benda
+3.  Nama yang dipakai untuk proses, data store, dataflow harus konsisten (identitas perlu)
+4.  Setiap level harus konsisten aliran datanya dengan level sebelumnya
+5.  Usahakan agar external entity pada setiap level konsisten peletakannya
+6.  Banyaknya proses  yang disarankan pada setiap level tidak melebihi 7 proses
+7.  Dekomposisi berdasarkan kelompok data lebih disarankan (memudahkan aliran data ke storage yang sama)
+8.  Nama Proses yang umum hanya untuk prose yang masih akan didekomposisi
+9.  Pada Proses yang sudah tidak didekomposisi, nama Proses dan nama Data harus sudah spesifik
+10. Aliran ke storage harus melalui proses, tidak boleh langsung dari external entity
+11. Aliran data untuk Proses Report .. : harus ada aliran keluar. Akan ada aliran masuk jika perlu parameter untuk mengaktifkan report
+12. Aliran data yang tidak ada datastorenya harus diteliti, apakah memang tidak mencerminkan persisten entity (perlu disimpan dalam file/tabel), yaitu kelak hanya akan menjadi variabel dalam program.
+
+Langkah membuat/menggambar DFD
+
+1. Tidak ada aturan baku untuk menggambarkan DFD. Tapi dari berbagai referensi yang ada, secara garis besar langkah untuk membuat DFD adalah :
+   a. Identifikasi Entitas Luar, Input dan Output
+	Identifikasi terlebih dahulu semua entitas luar, input dan ouput yang terlibat di sistem.
+   b. Buat Diagram Konteks (diagram context)
+	Diagram ini adalah diagram level tertinggi dari DFD yang menggambarkan hubungan sistem dengan lingkungan luarnya.
+	Caranya :
+	  1. Tentukan nama sistemnya.
+    	  2. Tentukan batasan sistemnya.
+    	  3. Tentukan terminator apa saja yang ada dalam sistem.
+    	  4. Tentukan apa yang diterima/diberikan external entity dari/ke sistem.
+    	  5. Gambarkan diagram konteks.
+
+
+Diagram ini adalah dekomposisi dari diagram konteks.
+Caranya :
+
+1. Tentukan proses utama yang ada pada sistem.
+2. Tentukan apa yang diberikan/diterima masing-masing proses ke/dari sistem sambil memperhatikan konsep keseimbangan (alur data yang keluar/masuk dari suatu level harus sama dengan alur data yang masuk/keluar pada level berikutnya).
+3. Apabila diperlukan, munculkan data store (master) sebagai sumber maupun tujuan alur data.
+4. Hindari perpotongan arus data
+5. Beri nomor pada proses utama (nomor tidak menunjukkan urutan proses).
+
+
+
+Diagram ini merupakan dekomposisi dari diagram level zero.
+Caranya :
+
+1.  Tentukan proses yang lebih kecil (sub-proses) dari proses utama yang ada di level zero.
+2.  Tentukan apa yang diberikan/diterima masing-masing sub-proses ke/dari sistem dan perhatikan konsep keseimbangan.
+3.  Apabila diperlukan, munculkan data store (transaksi) sebagai sumber maupun tujuan alur data.
+4.  Hindari perpotongan arus data.
+5.  Beri nomor pada masing-masing sub-proses yang menunjukkan dekomposisi dari proses sebelumnya.C ontoh : 1.1, 1.2, 2
+
+
+Umumnya kesalahan dalam pembuatan DFD adalah :
+
+1.  Proses mempunyai input tetapi tidak menghasilkan output. Kesalahan ini disebut dengan black hole (lubang hitam), karena data masuk ke dalam proses dan lenyap tidak berbekas seperti dimasukkan ke dalam lubang hitam.
+2.  Proses menghasilkan output tetapi tidak pernah menerima input. Kesalahan ini disebut dengan miracle (ajaib), karena ajaib dihasilkan output tanpa pernah menerima input.
+3.  Input yang masuk tidak sesuai dengan kebutuhan proses
+4.  Data Store tidak memiliki keluaran
+5.  Data Store tidak memiliki masukan
+6.  Hubungan langsung antar entitas luar
+7.  Masukan langsung entitas data store
+8.  Keluaran langsun dari data store ke Entitas  luar
+9.  Hubungan langsung antar data store
+10. Data masukan dan keluaran yang tidak bersesuain dalam data store
